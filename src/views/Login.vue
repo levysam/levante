@@ -7,7 +7,7 @@
             <div>
             <MainInput placeholder="Email" class="mb-3"></MainInput>
             <MainInput placeholder="Senha" class="mb-3"></MainInput>
-            <SendButton></SendButton>
+            <router-link to="Profile"><SendButton></SendButton></router-link> 
             <p class="text-white mt-4">Esqueci a Senha</p>
             <router-link to="Cadastro"><p class="text-white">Cadastro</p></router-link> 
           </div>
